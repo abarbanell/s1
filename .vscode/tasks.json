@@ -6,8 +6,20 @@
     "isShellCommand": true,
     "showOutput": "always",
     "suppressTaskName": true,
-    "tasks": [{
-        "taskName": "run",
-        "args": ["run"] 
-    }]
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": ["compile"] 
+        },{
+            "taskName": "test",
+            "args": [
+                "test"
+            ]
+        },{
+            "taskName": "run",
+            "args": [
+                "run"
+            ]
+        }
+    ]
 }
