@@ -20,5 +20,8 @@ project/plugins/project/
 .ensime_cache/
 .ensime
 
+# IntelliJ specific
+.idea/
+
 # MacOS specific
 .DS_Store
